@@ -234,6 +234,7 @@ GLOBAL_LIST_INIT(wood_recipes, list ( \
 	new/datum/stack_recipe("picture frame", /obj/item/wallframe/picture, 1, time = 10),\
 	new/datum/stack_recipe("honey frame", /obj/item/honey_frame, 5, time = 10),\
 	new/datum/stack_recipe("cross", /obj/structure/kitchenspike/cross, 10, time = 10),\
+	new/datum/stack_recipe("sauna oven", /obj/structure/sauna_oven, 30, time = 15, one_per_turf = TRUE, on_floor = TRUE), \
 	))
 
 /obj/item/stack/sheet/mineral/wood
